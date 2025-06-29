@@ -9,7 +9,9 @@
   - 🎮 **Multithreaded OpenGL Physics Engine** with GPU optimization and real-time simulation.
   - 🧩 **Image Segmentation with Mask2Former** on custom datasets for fine-grained instance masks.
   - 🤖 **Finetuning Qwen-1.5B** using **GRPO (Generalized Reinforcement Pretraining Objective)** for task adaptation.
+    
 - 🌱 I’m learning advanced **optimization**, **multithreading in C++**, **RLHF**, and **MLOps best practices**.
+  
 - 💬 Ask me about:
   - ML/AI deployment with Flask, Gunicorn, and PyTorch
   - Full-stack apps using Django + React + PostgreSQL
