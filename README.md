@@ -16,7 +16,7 @@
   - ML/AI deployment with Flask, Gunicorn, and PyTorch
   - Full-stack apps using Django + React + PostgreSQL
   - Robotics, real-time sensors, and cloud-based pipelines
-- 📫 Reach me at: **bhupathinikhil2005@gmail.com**
+- 📫 Reach me at: **bhupathinikhil2006@gmail.com**
 
 ---
 
