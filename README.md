@@ -20,11 +20,11 @@ Fine-tuned Mask2Former on Indian roadway imagery with the backbone and pixel dec
 ### [PortfolioOptimization](https://github.com/Nikhil-iitg27/PortfolioOptimization) — risk-aware portfolio optimization
 Walk-forward-backtested mean-variance and CVaR tangency portfolios under realistic constraints (transaction costs, turnover, position/sector caps), with two independent estimation-risk mitigations (Ledoit-Wolf shrinkage, Michaud resampling) and block-bootstrap statistical validation. Reproduces the DeMiguel-Garlappi-Uppal "1/N" result — equal-weight is statistically indistinguishable from every optimized strategy at this sample size — and confirms the promised-vs-realized Sharpe gap on a synthetic control with a known true frontier, showing it's a genuine estimation-risk effect rather than a quirk of the data. 35-test suite.
 
-### [OptionPricing](https://github.com/Nikhil-iitg27/OptionPricing) — numerical option pricing, cross-validated
-Seven independent pricing methods for the same risk-neutral expectation — closed-form, binomial/trinomial trees, Crank-Nicolson with PSOR for American exercise, and Longstaff-Schwartz Monte Carlo — checked against each other and against live SPY/AAPL/QQQ quotes. Near-the-money pricing error of 5.3% at realized volatility; realized and implied volatility are statistically indistinguishable near the money (Wilcoxon p=0.89). 63-test suite.
-
 ### [PhysicsEngine](https://github.com/Nikhil-iitg27/PhysicsEngine) — multithreaded 3D physics engine
 A rigid-body simulation engine built from scratch in C++/OpenGL: BVH/AABB broad-phase collision detection, impulse-based contact resolution, and mutex-parallelized integration and collision steps, with a hand-written vector/quaternion/matrix math library underneath.
+
+### [OptionPricing](https://github.com/Nikhil-iitg27/OptionPricing) — numerical option pricing, cross-validated
+Seven independent pricing methods for the same risk-neutral expectation — closed-form, binomial/trinomial trees, Crank-Nicolson with PSOR for American exercise, and Longstaff-Schwartz Monte Carlo — checked against each other and against live SPY/AAPL/QQQ quotes. Near-the-money pricing error of 5.3% at realized volatility; realized and implied volatility are statistically indistinguishable near the money (Wilcoxon p=0.89). 63-test suite.
 
 ### [LangGraphAgent](https://github.com/Nikhil-iitg27/LangGraphAgent) — academic research CLI agent
 A command-line tool that runs two independently-architected agents — an explicit LangGraph pipeline and a dynamic ReAct agent — behind a router that picks between them and states why. Built its own keyless search module across arXiv, Semantic Scholar, and CrossRef, and constrains extraction to cite a real source index rather than free-generate a title, so it can return "nothing relevant" but never a hallucinated one.
